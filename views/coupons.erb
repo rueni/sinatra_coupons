@@ -1,0 +1,14 @@
+<h3>Top Deals</h3>
+
+
+<ol>
+
+  <% @coupons.each do |coupon| %>
+
+  <li>
+    <%= coupon.title %>  <%= coupon.description %>
+  </li>
+
+  <% end %>
+
+</ol>
